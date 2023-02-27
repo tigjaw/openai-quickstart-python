@@ -31,7 +31,7 @@ This is simple python ChatGPT app developed using the the OpenAI API [quickstart
    $ . venv/bin/activate
    ```
    
-   If ". venv/bin/activate" encounters an error, try:
+   If the above encounters an error, try:
    ```bash
    $ python -m venv venv
    $ . venv/scripts/activate
