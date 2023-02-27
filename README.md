@@ -4,8 +4,7 @@ This is simple python ChatGPT app developed using the the OpenAI API [quickstart
 
 ## Setup
 
-1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/)
-1.b. If you do have Python installed, ensure it is fully up to date
+1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/). If you do have Python installed, ensure it is fully up to date
 
    ```bash
    $ python.exe -m pip install --upgrade pip
