@@ -16,7 +16,7 @@ This is simple python ChatGPT app developed using the the OpenAI API [quickstart
    $ pip install virtualenv
    ```
 
-3. Fork/Clone this repository
+3. Clone this repository
 
 4. Navigate into the project directory
 
@@ -51,10 +51,12 @@ This is simple python ChatGPT app developed using the the OpenAI API [quickstart
 
 8. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
 
-9. Run the app
+9. a. Run the app manually
 
    ```bash
    $ flask run
    ```
+   
+   b. Run the app using the "run.bat" batch file. This will open the app automatically in your default browser.
 
 You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
