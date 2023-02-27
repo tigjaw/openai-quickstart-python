@@ -1,41 +1,58 @@
 # OpenAI API Quickstart - Python example app
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
+This is simple python ChatGPT app developed using the the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
 
 ## Setup
 
 1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/)
+1.b. If you do have Python installed, ensure it is fully up to date
 
-2. Clone this repository
+   ```bash
+   $ python.exe -m pip install --upgrade pip
+   ```
 
-3. Navigate into the project directory
+2. Ensure you have virtualenv installed
+
+   ```bash
+   $ pip install virtualenv
+   ```
+
+3. Fork/Clone this repository
+
+4. Navigate into the project directory
 
    ```bash
    $ cd openai-quickstart-python
    ```
 
-4. Create a new virtual environment
+5. Create a new virtual environment
 
    ```bash
    $ python -m venv venv
    $ . venv/bin/activate
    ```
+   
+   If ". venv/bin/activate" encounters an error, try:
+   ```bash
+   $ python -m venv venv
+   $ . venv/scripts/activate
+   ```
 
-5. Install the requirements
+6. Install the requirements
 
    ```bash
    $ pip install -r requirements.txt
    ```
 
-6. Make a copy of the example environment variables file
+7. Make a copy of the example environment variables file
 
    ```bash
    $ cp .env.example .env
    ```
 
-7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
+8. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
 
-8. Run the app
+9. Run the app
 
    ```bash
    $ flask run
